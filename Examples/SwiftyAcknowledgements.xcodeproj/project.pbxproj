@@ -3,77 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33D1BC3125C698E100B3D1D4 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33D1BBDD25C6956800B3D1D4 /* Acknowledgements.plist */; };
-		33D1BC3225C698E200B3D1D4 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33D1BBDD25C6956800B3D1D4 /* Acknowledgements.plist */; };
-		524F34CE1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F34CD1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift */; };
-		524F34CF1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F34CD1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift */; };
-		524F34D11BE2491800784625 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F34D01BE2491800784625 /* BaseTestCase.swift */; };
-		524F34D21BE2491800784625 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524F34D01BE2491800784625 /* BaseTestCase.swift */; };
-		527046721BE0EE86004CD4FC /* UIFontDescriptorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527046711BE0EE86004CD4FC /* UIFontDescriptorExtensions.swift */; };
-		527046731BE0EE86004CD4FC /* UIFontDescriptorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527046711BE0EE86004CD4FC /* UIFontDescriptorExtensions.swift */; };
-		5270467E1BE203CB004CD4FC /* AcknowledgementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270467D1BE203CB004CD4FC /* AcknowledgementTests.swift */; };
-		527046801BE203CB004CD4FC /* SwiftyAcknowledgements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FC37771B9F6A0A005EFE87 /* SwiftyAcknowledgements.framework */; };
-		5270468F1BE204A1004CD4FC /* SwiftyAcknowledgements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AAE6231BDF87B9007EB44A /* SwiftyAcknowledgements.framework */; };
-		527046951BE204C4004CD4FC /* AcknowledgementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270467D1BE203CB004CD4FC /* AcknowledgementTests.swift */; };
+		33189B402C91685600E2E4F4 /* SwiftyAcknowledgements in Frameworks */ = {isa = PBXBuildFile; productRef = 33189B3F2C91685600E2E4F4 /* SwiftyAcknowledgements */; };
+		33189B432C916B0800E2E4F4 /* SwiftyAcknowledgements in Frameworks */ = {isa = PBXBuildFile; productRef = 33189B422C916B0800E2E4F4 /* SwiftyAcknowledgements */; };
 		5275A9AA1B9F6F99007AD576 /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5275A9A91B9F6F99007AD576 /* Acknowledgements.plist */; };
-		52AAE62B1BDF87F5007EB44A /* Acknowledgement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC37831B9F6A94005EFE87 /* Acknowledgement.swift */; };
-		52AAE62C1BDF87F5007EB44A /* AcknowledgementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC37841B9F6A94005EFE87 /* AcknowledgementsTableViewController.swift */; };
-		52AAE62D1BDF87F5007EB44A /* AcknowledgementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC37851B9F6A94005EFE87 /* AcknowledgementViewController.swift */; };
-		52AAE62E1BDF87F5007EB44A /* SwiftyAcknowledgements.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FC377A1B9F6A0A005EFE87 /* SwiftyAcknowledgements.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52AAE6371BDF9A51007EB44A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAE6361BDF9A51007EB44A /* AppDelegate.swift */; };
 		52AAE6391BDF9A51007EB44A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AAE6381BDF9A51007EB44A /* ViewController.swift */; };
 		52AAE63C1BDF9A51007EB44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AAE63A1BDF9A51007EB44A /* Main.storyboard */; };
 		52AAE63E1BDF9A51007EB44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AAE63D1BDF9A51007EB44A /* Assets.xcassets */; };
-		52AAE6431BDF9AB0007EB44A /* SwiftyAcknowledgements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52AAE6231BDF87B9007EB44A /* SwiftyAcknowledgements.framework */; };
-		52AAE6441BDF9AB0007EB44A /* SwiftyAcknowledgements.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52AAE6231BDF87B9007EB44A /* SwiftyAcknowledgements.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		52AAE64A1BDFAB27007EB44A /* Acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 52AAE6491BDFAB27007EB44A /* Acknowledgements.plist */; };
-		52E10E141BDE37C200C6176A /* SwiftyAcknowledgements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52FC37771B9F6A0A005EFE87 /* SwiftyAcknowledgements.framework */; };
-		52E10E151BDE37C200C6176A /* SwiftyAcknowledgements.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52FC37771B9F6A0A005EFE87 /* SwiftyAcknowledgements.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		52FC377B1B9F6A0A005EFE87 /* SwiftyAcknowledgements.h in Headers */ = {isa = PBXBuildFile; fileRef = 52FC377A1B9F6A0A005EFE87 /* SwiftyAcknowledgements.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52FC37861B9F6A94005EFE87 /* Acknowledgement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC37831B9F6A94005EFE87 /* Acknowledgement.swift */; };
-		52FC37871B9F6A94005EFE87 /* AcknowledgementsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC37841B9F6A94005EFE87 /* AcknowledgementsTableViewController.swift */; };
-		52FC37881B9F6A94005EFE87 /* AcknowledgementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC37851B9F6A94005EFE87 /* AcknowledgementViewController.swift */; };
 		52FC37901B9F6BEF005EFE87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC378F1B9F6BEF005EFE87 /* AppDelegate.swift */; };
 		52FC37921B9F6BEF005EFE87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FC37911B9F6BEF005EFE87 /* ViewController.swift */; };
 		52FC37951B9F6BEF005EFE87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FC37931B9F6BEF005EFE87 /* Main.storyboard */; };
 		52FC37971B9F6BEF005EFE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FC37961B9F6BEF005EFE87 /* Assets.xcassets */; };
 		52FC379A1B9F6BEF005EFE87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52FC37981B9F6BEF005EFE87 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		527046811BE203CB004CD4FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52FC376E1B9F6A0A005EFE87 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52FC37761B9F6A0A005EFE87;
-			remoteInfo = "SwiftyAcknowledgements iOS";
-		};
-		527046901BE204A1004CD4FC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52FC376E1B9F6A0A005EFE87 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52AAE6221BDF87B9007EB44A;
-			remoteInfo = "SwiftyAcknowledgements tvOS";
-		};
-		5275A9AB1B9F6FA9007AD576 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52FC376E1B9F6A0A005EFE87 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52FC37761B9F6A0A005EFE87;
-			remoteInfo = SwiftyAcknowledgements;
-		};
-		52AAE6451BDF9AB0007EB44A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52FC376E1B9F6A0A005EFE87 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52AAE6221BDF87B9007EB44A;
-			remoteInfo = "SwiftyAcknowledgements tvOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		33D1BC0F25C696C700B3D1D4 /* CopyFiles */ = {
@@ -91,7 +38,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				52AAE6441BDF9AB0007EB44A /* SwiftyAcknowledgements.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,7 +48,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				52E10E151BDE37C200C6176A /* SwiftyAcknowledgements.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,16 +55,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		33D1BBDD25C6956800B3D1D4 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Acknowledgements.plist; path = TestResources/Acknowledgements.plist; sourceTree = "<group>"; };
-		524F34CD1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowledgementsTableViewControllerTests.swift; sourceTree = "<group>"; };
-		524F34D01BE2491800784625 /* BaseTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
-		527046711BE0EE86004CD4FC /* UIFontDescriptorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFontDescriptorExtensions.swift; sourceTree = "<group>"; };
 		5270467B1BE203CB004CD4FC /* SwiftyAcknowledgements iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyAcknowledgements iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5270467D1BE203CB004CD4FC /* AcknowledgementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcknowledgementTests.swift; sourceTree = "<group>"; };
-		5270467F1BE203CB004CD4FC /* TestsInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TestsInfo.plist; sourceTree = "<group>"; };
 		5270468A1BE204A1004CD4FC /* SwiftyAcknowledgements tvOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyAcknowledgements tvOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5275A9A91B9F6F99007AD576 /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Acknowledgements.plist; sourceTree = "<group>"; };
-		52AAE6231BDF87B9007EB44A /* SwiftyAcknowledgements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyAcknowledgements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AAE6341BDF9A51007EB44A /* tvOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52AAE6361BDF9A51007EB44A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52AAE6381BDF9A51007EB44A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,12 +65,6 @@
 		52AAE63D1BDF9A51007EB44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52AAE63F1BDF9A51007EB44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52AAE6491BDFAB27007EB44A /* Acknowledgements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Acknowledgements.plist; sourceTree = "<group>"; };
-		52FC37771B9F6A0A005EFE87 /* SwiftyAcknowledgements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyAcknowledgements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52FC377A1B9F6A0A005EFE87 /* SwiftyAcknowledgements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyAcknowledgements.h; sourceTree = "<group>"; };
-		52FC377C1B9F6A0A005EFE87 /* FrameworkInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = FrameworkInfo.plist; sourceTree = "<group>"; };
-		52FC37831B9F6A94005EFE87 /* Acknowledgement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Acknowledgement.swift; sourceTree = "<group>"; };
-		52FC37841B9F6A94005EFE87 /* AcknowledgementsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowledgementsTableViewController.swift; sourceTree = "<group>"; };
-		52FC37851B9F6A94005EFE87 /* AcknowledgementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcknowledgementViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		52FC378D1B9F6BEF005EFE87 /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FC378F1B9F6BEF005EFE87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52FC37911B9F6BEF005EFE87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,19 +79,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				527046801BE203CB004CD4FC /* SwiftyAcknowledgements.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		527046871BE204A1004CD4FC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5270468F1BE204A1004CD4FC /* SwiftyAcknowledgements.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52AAE61F1BDF87B9007EB44A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -170,14 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AAE6431BDF9AB0007EB44A /* SwiftyAcknowledgements.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52FC37731B9F6A0A005EFE87 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				33189B432C916B0800E2E4F4 /* SwiftyAcknowledgements in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,41 +101,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52E10E141BDE37C200C6176A /* SwiftyAcknowledgements.framework in Frameworks */,
+				33189B402C91685600E2E4F4 /* SwiftyAcknowledgements in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		33D1BBCD25C6911800B3D1D4 /* Resources */ = {
+		33189B3B2C9166D000E2E4F4 /* iOS Example */ = {
 			isa = PBXGroup;
 			children = (
-				33D1BBDD25C6956800B3D1D4 /* Acknowledgements.plist */,
+				52FC378F1B9F6BEF005EFE87 /* AppDelegate.swift */,
+				52FC37911B9F6BEF005EFE87 /* ViewController.swift */,
+				52FC37931B9F6BEF005EFE87 /* Main.storyboard */,
+				52FC37961B9F6BEF005EFE87 /* Assets.xcassets */,
+				52FC37981B9F6BEF005EFE87 /* LaunchScreen.storyboard */,
+				5270469F1BE20701004CD4FC /* Resources */,
+				527046A01BE20705004CD4FC /* Supporting Files */,
 			);
-			name = Resources;
+			path = "iOS Example";
 			sourceTree = "<group>";
 		};
-		5270467C1BE203CB004CD4FC /* Tests */ = {
+		33189B3C2C9166E000E2E4F4 /* tvOS Example */ = {
 			isa = PBXGroup;
 			children = (
-				524F34D01BE2491800784625 /* BaseTestCase.swift */,
-				5270467D1BE203CB004CD4FC /* AcknowledgementTests.swift */,
-				524F34CD1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift */,
-				33D1BBCD25C6911800B3D1D4 /* Resources */,
+				52AAE6361BDF9A51007EB44A /* AppDelegate.swift */,
+				52AAE6381BDF9A51007EB44A /* ViewController.swift */,
+				52AAE63A1BDF9A51007EB44A /* Main.storyboard */,
+				52AAE63D1BDF9A51007EB44A /* Assets.xcassets */,
+				527046A11BE2070B004CD4FC /* Resources */,
+				527046A21BE20710004CD4FC /* Supporting Files */,
 			);
-			name = Tests;
-			path = Tests/SwiftyAcknowledgementsTests;
-			sourceTree = SOURCE_ROOT;
+			path = "tvOS Example";
+			sourceTree = "<group>";
 		};
-		5270469E1BE206D5004CD4FC /* Supporting Files */ = {
+		33189B412C916B0800E2E4F4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52FC377A1B9F6A0A005EFE87 /* SwiftyAcknowledgements.h */,
-				5270467F1BE203CB004CD4FC /* TestsInfo.plist */,
-				52FC377C1B9F6A0A005EFE87 /* FrameworkInfo.plist */,
 			);
-			path = "Supporting Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5270469F1BE20701004CD4FC /* Resources */ = {
@@ -254,28 +174,12 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		52AAE6351BDF9A51007EB44A /* tvOS Example */ = {
-			isa = PBXGroup;
-			children = (
-				52AAE6361BDF9A51007EB44A /* AppDelegate.swift */,
-				52AAE6381BDF9A51007EB44A /* ViewController.swift */,
-				52AAE63A1BDF9A51007EB44A /* Main.storyboard */,
-				52AAE63D1BDF9A51007EB44A /* Assets.xcassets */,
-				527046A11BE2070B004CD4FC /* Resources */,
-				527046A21BE20710004CD4FC /* Supporting Files */,
-			);
-			name = "tvOS Example";
-			path = "Examples/tvOS Example";
-			sourceTree = "<group>";
-		};
 		52FC376D1B9F6A0A005EFE87 = {
 			isa = PBXGroup;
 			children = (
-				5270469E1BE206D5004CD4FC /* Supporting Files */,
-				52FC37791B9F6A0A005EFE87 /* SwiftyAcknowledgements */,
-				5270467C1BE203CB004CD4FC /* Tests */,
-				52FC378E1B9F6BEF005EFE87 /* iOS Example */,
-				52AAE6351BDF9A51007EB44A /* tvOS Example */,
+				33189B3B2C9166D000E2E4F4 /* iOS Example */,
+				33189B3C2C9166E000E2E4F4 /* tvOS Example */,
+				33189B412C916B0800E2E4F4 /* Frameworks */,
 				52FC37781B9F6A0A005EFE87 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -283,9 +187,7 @@
 		52FC37781B9F6A0A005EFE87 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52FC37771B9F6A0A005EFE87 /* SwiftyAcknowledgements.framework */,
 				52FC378D1B9F6BEF005EFE87 /* iOS Example.app */,
-				52AAE6231BDF87B9007EB44A /* SwiftyAcknowledgements.framework */,
 				52AAE6341BDF9A51007EB44A /* tvOS Example.app */,
 				5270467B1BE203CB004CD4FC /* SwiftyAcknowledgements iOS Tests.xctest */,
 				5270468A1BE204A1004CD4FC /* SwiftyAcknowledgements tvOS Tests.xctest */,
@@ -293,53 +195,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52FC37791B9F6A0A005EFE87 /* SwiftyAcknowledgements */ = {
-			isa = PBXGroup;
-			children = (
-				52FC37831B9F6A94005EFE87 /* Acknowledgement.swift */,
-				52FC37841B9F6A94005EFE87 /* AcknowledgementsTableViewController.swift */,
-				52FC37851B9F6A94005EFE87 /* AcknowledgementViewController.swift */,
-				527046711BE0EE86004CD4FC /* UIFontDescriptorExtensions.swift */,
-			);
-			name = SwiftyAcknowledgements;
-			path = Sources/SwiftyAcknowledgements;
-			sourceTree = "<group>";
-		};
-		52FC378E1B9F6BEF005EFE87 /* iOS Example */ = {
-			isa = PBXGroup;
-			children = (
-				52FC378F1B9F6BEF005EFE87 /* AppDelegate.swift */,
-				52FC37911B9F6BEF005EFE87 /* ViewController.swift */,
-				52FC37931B9F6BEF005EFE87 /* Main.storyboard */,
-				52FC37961B9F6BEF005EFE87 /* Assets.xcassets */,
-				52FC37981B9F6BEF005EFE87 /* LaunchScreen.storyboard */,
-				5270469F1BE20701004CD4FC /* Resources */,
-				527046A01BE20705004CD4FC /* Supporting Files */,
-			);
-			name = "iOS Example";
-			path = "Examples/iOS Example";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		52AAE6201BDF87B9007EB44A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52AAE62E1BDF87F5007EB44A /* SwiftyAcknowledgements.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52FC37741B9F6A0A005EFE87 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52FC377B1B9F6A0A005EFE87 /* SwiftyAcknowledgements.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5270467A1BE203CB004CD4FC /* SwiftyAcknowledgements iOS Tests */ = {
@@ -355,7 +211,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				527046821BE203CB004CD4FC /* PBXTargetDependency */,
 			);
 			name = "SwiftyAcknowledgements iOS Tests";
 			productName = "SwiftyAcknowledgementsTests iOS";
@@ -374,30 +229,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				527046911BE204A1004CD4FC /* PBXTargetDependency */,
 			);
 			name = "SwiftyAcknowledgements tvOS Tests";
 			productName = "SwiftyAcknowledgements tvOS Tests";
 			productReference = 5270468A1BE204A1004CD4FC /* SwiftyAcknowledgements tvOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		52AAE6221BDF87B9007EB44A /* SwiftyAcknowledgements tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52AAE6281BDF87B9007EB44A /* Build configuration list for PBXNativeTarget "SwiftyAcknowledgements tvOS" */;
-			buildPhases = (
-				52AAE61E1BDF87B9007EB44A /* Sources */,
-				52AAE61F1BDF87B9007EB44A /* Frameworks */,
-				52AAE6201BDF87B9007EB44A /* Headers */,
-				52AAE6211BDF87B9007EB44A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SwiftyAcknowledgements tvOS";
-			productName = "SwiftyAcknowledgements tvOS";
-			productReference = 52AAE6231BDF87B9007EB44A /* SwiftyAcknowledgements.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		52AAE6331BDF9A51007EB44A /* tvOS Example */ = {
 			isa = PBXNativeTarget;
@@ -412,30 +248,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				52AAE6461BDF9AB0007EB44A /* PBXTargetDependency */,
 			);
 			name = "tvOS Example";
 			productName = "tvOS Example";
 			productReference = 52AAE6341BDF9A51007EB44A /* tvOS Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		52FC37761B9F6A0A005EFE87 /* SwiftyAcknowledgements iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52FC377F1B9F6A0A005EFE87 /* Build configuration list for PBXNativeTarget "SwiftyAcknowledgements iOS" */;
-			buildPhases = (
-				52FC37721B9F6A0A005EFE87 /* Sources */,
-				52FC37731B9F6A0A005EFE87 /* Frameworks */,
-				52FC37741B9F6A0A005EFE87 /* Headers */,
-				52FC37751B9F6A0A005EFE87 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SwiftyAcknowledgements iOS";
-			productName = SwiftyAcknowledgements;
-			productReference = 52FC37771B9F6A0A005EFE87 /* SwiftyAcknowledgements.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 		52FC378C1B9F6BEF005EFE87 /* iOS Example */ = {
 			isa = PBXNativeTarget;
@@ -450,7 +267,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				5275A9AC1B9F6FA9007AD576 /* PBXTargetDependency */,
 			);
 			name = "iOS Example";
 			productName = "iOS Example";
@@ -475,16 +291,8 @@
 						CreatedOnToolsVersion = 7.1;
 						LastSwiftMigration = 0820;
 					};
-					52AAE6221BDF87B9007EB44A = {
-						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0820;
-					};
 					52AAE6331BDF9A51007EB44A = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0820;
-					};
-					52FC37761B9F6A0A005EFE87 = {
-						CreatedOnToolsVersion = 7.0;
 						LastSwiftMigration = 0820;
 					};
 					52FC378C1B9F6BEF005EFE87 = {
@@ -502,14 +310,15 @@
 				Base,
 			);
 			mainGroup = 52FC376D1B9F6A0A005EFE87;
+			packageReferences = (
+				33189B3E2C91685600E2E4F4 /* XCLocalSwiftPackageReference "../../SwiftyAcknowledgements" */,
+			);
 			productRefGroup = 52FC37781B9F6A0A005EFE87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52FC37761B9F6A0A005EFE87 /* SwiftyAcknowledgements iOS */,
 				5270467A1BE203CB004CD4FC /* SwiftyAcknowledgements iOS Tests */,
 				52FC378C1B9F6BEF005EFE87 /* iOS Example */,
-				52AAE6221BDF87B9007EB44A /* SwiftyAcknowledgements tvOS */,
 				527046891BE204A1004CD4FC /* SwiftyAcknowledgements tvOS Tests */,
 				52AAE6331BDF9A51007EB44A /* tvOS Example */,
 			);
@@ -521,19 +330,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D1BC3125C698E100B3D1D4 /* Acknowledgements.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		527046881BE204A1004CD4FC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				33D1BC3225C698E200B3D1D4 /* Acknowledgements.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52AAE6211BDF87B9007EB44A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -547,13 +347,6 @@
 				52AAE64A1BDFAB27007EB44A /* Acknowledgements.plist in Resources */,
 				52AAE63E1BDF9A51007EB44A /* Assets.xcassets in Resources */,
 				52AAE63C1BDF9A51007EB44A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52FC37751B9F6A0A005EFE87 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +394,7 @@
 		};
 		5275A9A81B9F6D18007AD576 /* Generate Acknowledgements */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -608,13 +402,15 @@
 			);
 			name = "Generate Acknowledgements";
 			outputPaths = (
+				"\"${PROJECT_DIR}/${ACK_PLIST_PATH}\"",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/Sources/GenerateLicenseFile/main.swift ${SRCROOT}/Libraries/ ${PROJECT_DIR}/Examples/iOS\\ Example/Resources/Acknowledgements.plist\n";
+			shellScript = "#!/usr/bin/env bash\n\nACK_PLIST_PATH=\"iOS Example/Resources/Acknowledgements.plist\"\nROOT_DEPENDENCIES_DIRECTORY=\"Examples/Libraries\" # if you're exclusively using SPM, this should work. You may add other resources like so:\n# ROOT_SECONDARY_DEPENDENCIES_DIRECTORY=\"another/path\"\n\n#pushd \"${BUILD_ROOT}/../../SourcePackages/checkouts/SwiftyAcknowledgements/\"\npushd \"${PROJECT_DIR}/../\"\n./GenerateLicenseFile \"${ROOT_DEPENDENCIES_DIRECTORY}\" -o \"${PROJECT_DIR}/${ACK_PLIST_PATH}\"\n# ./GenerateLicenseFile \"${ROOT_DEPENDENCIES_DIRECTORY}\" \"${ROOT_SECONDARY_DEPENDENCIES_DIRECTORY}\" -o \"${PROJECT_DIR}/${ACK_PLIST_PATH}\" # use this if you have multiple dependency directories\npopd\n";
 		};
 		52AAE6481BDFAAE1007EB44A /* Generate Acknowledgements */ = {
 			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -625,7 +421,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "${SRCROOT}/Sources/GenerateLicenseFile/main.swift ${SRCROOT}/Libraries/ ${PROJECT_DIR}/Examples/iOS\\ Example/Resources/Acknowledgements.plist\n";
+			shellScript = "#!/usr/bin/env bash\n\nACK_PLIST_PATH=\"tvOS Example/Resources/Acknowledgements.plist\"\nROOT_DEPENDENCIES_DIRECTORY=\"Examples/Libraries\" # if you're exclusively using SPM, this should work. You may add other resources like so:\n# ROOT_SECONDARY_DEPENDENCIES_DIRECTORY=\"another/path\"\n\n# pushd \"${BUILD_ROOT}/../../SourcePackages/checkouts/SwiftyAcknowledgements/\"\npushd \"${PROJECT_DIR}/../\"\n./GenerateLicenseFile \"${ROOT_DEPENDENCIES_DIRECTORY}\" -o \"${PROJECT_DIR}/${ACK_PLIST_PATH}\"\n# ./GenerateLicenseFile \"${ROOT_DEPENDENCIES_DIRECTORY}\" \"${ROOT_SECONDARY_DEPENDENCIES_DIRECTORY}\" -o \"${PROJECT_DIR}/${ACK_PLIST_PATH}\" # use this if you have multiple dependency directories\npopd\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -634,9 +430,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524F34CE1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift in Sources */,
-				5270467E1BE203CB004CD4FC /* AcknowledgementTests.swift in Sources */,
-				524F34D11BE2491800784625 /* BaseTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,20 +437,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				524F34CF1BE248EE00784625 /* AcknowledgementsTableViewControllerTests.swift in Sources */,
-				527046951BE204C4004CD4FC /* AcknowledgementTests.swift in Sources */,
-				524F34D21BE2491800784625 /* BaseTestCase.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52AAE61E1BDF87B9007EB44A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52AAE62C1BDF87F5007EB44A /* AcknowledgementsTableViewController.swift in Sources */,
-				52AAE62D1BDF87F5007EB44A /* AcknowledgementViewController.swift in Sources */,
-				527046731BE0EE86004CD4FC /* UIFontDescriptorExtensions.swift in Sources */,
-				52AAE62B1BDF87F5007EB44A /* Acknowledgement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,17 +446,6 @@
 			files = (
 				52AAE6391BDF9A51007EB44A /* ViewController.swift in Sources */,
 				52AAE6371BDF9A51007EB44A /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52FC37721B9F6A0A005EFE87 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52FC37871B9F6A94005EFE87 /* AcknowledgementsTableViewController.swift in Sources */,
-				52FC37881B9F6A94005EFE87 /* AcknowledgementViewController.swift in Sources */,
-				527046721BE0EE86004CD4FC /* UIFontDescriptorExtensions.swift in Sources */,
-				52FC37861B9F6A94005EFE87 /* Acknowledgement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -691,29 +459,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		527046821BE203CB004CD4FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52FC37761B9F6A0A005EFE87 /* SwiftyAcknowledgements iOS */;
-			targetProxy = 527046811BE203CB004CD4FC /* PBXContainerItemProxy */;
-		};
-		527046911BE204A1004CD4FC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52AAE6221BDF87B9007EB44A /* SwiftyAcknowledgements tvOS */;
-			targetProxy = 527046901BE204A1004CD4FC /* PBXContainerItemProxy */;
-		};
-		5275A9AC1B9F6FA9007AD576 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52FC37761B9F6A0A005EFE87 /* SwiftyAcknowledgements iOS */;
-			targetProxy = 5275A9AB1B9F6FA9007AD576 /* PBXContainerItemProxy */;
-		};
-		52AAE6461BDF9AB0007EB44A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52AAE6221BDF87B9007EB44A /* SwiftyAcknowledgements tvOS */;
-			targetProxy = 52AAE6451BDF9AB0007EB44A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		52AAE63A1BDF9A51007EB44A /* Main.storyboard */ = {
@@ -748,7 +493,11 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Supporting Files/TestsInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_SWIFT_FLAGS = "-DXCODE";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiasnagler.SwiftyAcknowledgementsTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -760,7 +509,11 @@
 			buildSettings = {
 				INFOPLIST_FILE = "Supporting Files/TestsInfo.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_SWIFT_FLAGS = "-DXCODE";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiasnagler.SwiftyAcknowledgementsTests-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -771,7 +524,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Supporting Files/TestsInfo.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_SWIFT_FLAGS = "-DXCODE";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiasnagler.SwiftyAcknowledgements-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -784,7 +541,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = "Supporting Files/TestsInfo.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				OTHER_SWIFT_FLAGS = "-DXCODE";
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiasnagler.SwiftyAcknowledgements-tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -793,75 +554,39 @@
 			};
 			name = Release;
 		};
-		52AAE6291BDF87B9007EB44A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Supporting Files/FrameworkInfo.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.mathiasnagler.SwiftyAcknowledgements;
-				PRODUCT_NAME = SwiftyAcknowledgements;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Debug;
-		};
-		52AAE62A1BDF87B9007EB44A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Supporting Files/FrameworkInfo.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.mathiasnagler.SwiftyAcknowledgements;
-				PRODUCT_NAME = SwiftyAcknowledgements;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-			};
-			name = Release;
-		};
 		52AAE6411BDF9A51007EB44A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "Examples/tvOS Example/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_FILE = "tvOS Example/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiasnagler.tvOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Debug;
 		};
 		52AAE6421BDF9A51007EB44A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "Examples/tvOS Example/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_FILE = "tvOS Example/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiasnagler.tvOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 			};
 			name = Release;
 		};
@@ -970,7 +695,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -979,51 +705,16 @@
 			};
 			name = Release;
 		};
-		52FC37801B9F6A0A005EFE87 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Supporting Files/FrameworkInfo.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.mathiasnagler.SwiftyAcknowledgements;
-				PRODUCT_NAME = SwiftyAcknowledgements;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		52FC37811B9F6A0A005EFE87 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Supporting Files/FrameworkInfo.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = de.mathiasnagler.SwiftyAcknowledgements;
-				PRODUCT_NAME = SwiftyAcknowledgements;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-			};
-			name = Release;
-		};
 		52FC379D1B9F6BEF005EFE87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Examples/iOS Example/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_FILE = "iOS Example/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiasnagler.iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1032,13 +723,17 @@
 		52FC379E1B9F6BEF005EFE87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Examples/iOS Example/Supporting Files/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				INFOPLIST_FILE = "iOS Example/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "de.mathiasnagler.iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
@@ -1063,15 +758,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52AAE6281BDF87B9007EB44A /* Build configuration list for PBXNativeTarget "SwiftyAcknowledgements tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52AAE6291BDF87B9007EB44A /* Debug */,
-				52AAE62A1BDF87B9007EB44A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		52AAE6401BDF9A51007EB44A /* Build configuration list for PBXNativeTarget "tvOS Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1090,15 +776,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52FC377F1B9F6A0A005EFE87 /* Build configuration list for PBXNativeTarget "SwiftyAcknowledgements iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52FC37801B9F6A0A005EFE87 /* Debug */,
-				52FC37811B9F6A0A005EFE87 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		52FC379C1B9F6BEF005EFE87 /* Build configuration list for PBXNativeTarget "iOS Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1109,6 +786,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		33189B3E2C91685600E2E4F4 /* XCLocalSwiftPackageReference "../../SwiftyAcknowledgements" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../SwiftyAcknowledgements;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		33189B3F2C91685600E2E4F4 /* SwiftyAcknowledgements */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftyAcknowledgements;
+		};
+		33189B422C916B0800E2E4F4 /* SwiftyAcknowledgements */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 33189B3E2C91685600E2E4F4 /* XCLocalSwiftPackageReference "../../SwiftyAcknowledgements" */;
+			productName = SwiftyAcknowledgements;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 52FC376E1B9F6A0A005EFE87 /* Project object */;
 }

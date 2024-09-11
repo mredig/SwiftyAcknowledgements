@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     @IBAction func showAcknowledgements() {
         let vc = AcknowledgementsTableViewController()
         vc.headerText = "SwiftyAcknowledgements makes use of the following third party libraries:"
-        vc.footerText = "Third party libraries integrated using Carthage:\nhttp://github.com/carthage"
-        
+		vc.footerText = "Third party libraries integrated using Swift Package Manager"
+
         vc.acknowledgements.append(Acknowledgement(title: "Custom Acknowledgement", text: "This is a custom acknowledgement added via code."))
         
         navigationController?.pushViewController(vc, animated: true)
